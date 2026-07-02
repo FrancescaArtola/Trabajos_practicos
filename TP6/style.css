@@ -1,7 +1,6 @@
 body{
-    background-color: violet;
-    color: slateblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(67, 85, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,18 +19,25 @@ div{
 }
 #parrafo1{
  font-size: 25px;
-color: darkslateblue;
+color: rgb(107, 155, 209);
 }
 button{
 background-color: slategray;
-color: lightsteelblue;
+color: rgb(46, 103, 177);
 border: rgb(174, 146, 211);
 border-radius: 15px;
 transition: 2s;
 }
 button:hover{
-background-color: plum;
+background-color: rgb(139, 121, 204);
 transform: rotate(10deg);
+transition: 5s;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: cornflowerblue;
+}
+    
 
 
